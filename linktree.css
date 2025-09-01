@@ -1,0 +1,76 @@
+<link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+
+    body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            font-size: medium;
+            font-weight: bold;
+            background: #d61b98;
+            color: #5f003f;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            padding: 70px;
+        }
+        .container {
+            width: 500px;
+            height: 1056px;
+            background: #ffa6cc;
+background: radial-gradient(circle, rgba(255, 166, 204, 1) 0%, rgba(250, 145, 217, 1) 100%);
+            border-radius: 18px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 22px;
+            margin-top: auto;
+        }
+
+        .logo {
+            padding-top: 12px;
+            width: 150px;
+            margin: auto;
+
+        }
+
+        .header {
+            font-size: large;
+            font-weight: bold;
+            color: #5f003f;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header {
+            color: white;
+            padding-top: 16PX;
+            ;
+            
+        }
+
+        .header2 {
+            font-size: 13px;
+            font-weight: 3px;
+            padding: 3px;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px 0;
+            margin: 16px;
+            font-size: medium;
+            background-color: transparent;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border: 1px solid #d61b98;
+            border-radius: 20px;
+        }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .btn {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+            font-weight: bold;
+
+            background-color:salmon;
+            color:firebrick;
+            text-align: center;
+            width: 150px;
+            height: 150px;
+            padding: 15px 15px;
+            margin: auto;
+            border: 10px dotted firebrick;
+            border-top-left-radius: 1250px ;
+            cursor: grab;
+
+            transition: background-color 0.4s, transform 0.4s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .btn1 {
+            margin-left: 35px;
+            margin-top: 15px;
+        }
+
+        #btn:hover {
+            background-color: bisque;
+            transform: translateX(5px);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="btn" id="btn"><span class="btn1">Click Me</span></div>
+    <div class="btn" id="btn"><span class="btn1">Click Me</span></div>
+    <div class="btn" id="btn"><span class="btn1">Click Me</span></div>
+    <div class="btn" id="btn"><span class="btn1">Click Me</span></div>
+    <div class="btn" id="btn"><span class="btn1">Click Me</span></div>
+    
+</body>
+</html>
